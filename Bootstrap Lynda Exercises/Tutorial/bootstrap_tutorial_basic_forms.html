@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <section class="col-xs-12">
+
+<!--  This is a good template for screen readers and mobile devices to have id=for (class="sr-only") -->
+<form>
+  <label for="inputName">Name</label>
+  <input type="text" id="inputName" 
+    placeholder="Name">
+
+<!-- class="form-control" padding and dress up code can be added to each container of the form -->
+<!-- added class="form-group" -->
+<div class="form-group">
+  <label for="inputEmail">Email</label>
+  <input class="form-control" type="email" id="inputEmail" 
+    placeholder="Email">
+</div>
+
+  <label for="selectSite">Site</label>
+  <select id="selectSite">
+    <option>Choose...</option>
+    <option>lynda.com</option>
+    <option>raybo.org</option>
+    <option>iviewsource.com</option>
+  </select>
+
+
+  <input id="inputAddList" type="checkbox">
+  <label for="inputAddList">
+  Add me to e-mail blast</label>
+
+<!-- Try this for a check box. -->
+  <div class="checkbox">
+    <input id="inputAddList" type="checkbox">
+    <label>
+    Add me to e-mail blast</label>
+  </div>
+
+  <label for="inputComments">Comments</label>
+  <textarea id="inputComments"></textarea>
+
+<!-- added class="btn btn-default pull-right" -->
+  <input class="btn btn-default" type="submit" value="submit">
+</form>
+
+
+    </section>
+  </div><!-- row -->   
+</div><!-- content container -->
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
